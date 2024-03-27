@@ -1,4 +1,4 @@
-import { getLastBlockNumber } from '../src/getLastBlockNumber';
+import { getLastBlockNumber } from 'simple-libraryq';
 
 test('getLastBlockNumber returns a number', async () => {
   const blockNumber = await getLastBlockNumber();

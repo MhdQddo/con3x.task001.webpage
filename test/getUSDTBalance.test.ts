@@ -1,4 +1,4 @@
-import { getUSDTBalance } from '../src/getUSDTBalance';
+import { getUSDTBalance } from 'simple-libraryq';
 
 test('getUSDTBalance returns USDT balance for a valid address', async () => {
   const address = '0x69a64bC34820899AFABa140Bfb6721A922818A7F'; // Provide a valid Ethereum address
